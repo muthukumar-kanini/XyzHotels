@@ -9,8 +9,9 @@ namespace XyzHotels.models
         public string? HotelName { get; set; }
         public string? HotelDescription { get; set; }
         public string? HotelLocation { get; set; }
+
+        public int? HotelPhoneNumber { get; set; }  
         public ICollection<Room>? Rooms { get; set; }
-        public ICollection<Employee>? Employees { get; set; }
-        public ICollection<Customer>? Customers { get; set; }
+        
     }
 }
